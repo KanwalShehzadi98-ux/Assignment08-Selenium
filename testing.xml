@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Daraz Automation Suite" preserve-order="true">
+    
+    <test name="Daraz Navigation Test" preserve-order="true">
+        <classes>
+            <class name="tests.DarazTest"/>
+        </classes>
+    </test>
+    
+    <test name="Search Results Test" preserve-order="true">
+        <classes>
+            <class name="tests.SearchResultsPage"/>
+        </classes>
+    </test>
+    
+    <test name="Brand Page Test" preserve-order="true">
+        <classes>
+            <class name="tests.BrandPage"/>
+        </classes>
+    </test>
+    
+    <test name="Price Filter Test" preserve-order="true">
+        <classes>
+            <class name="pages.PriceFilters"/>
+        </classes>
+    </test>
+    
+    <test name="Product Count Test" preserve-order="true">
+        <classes>
+            <class name="pages.CountProducts"/>
+        </classes>
+    </test>
+    
+    <test name="Product Click Test" preserve-order="true">
+        <classes>
+            <class name="pages.ClickProduct"/>
+        </classes>
+    </test>
+    
+	<test name="Product Shipping Test" preserve-order="true">
+        <classes>
+            <class name="pages.Shipping"/>
+        </classes>
+    </test>
+    
+</suite>
